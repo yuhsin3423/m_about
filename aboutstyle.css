@@ -1,0 +1,319 @@
+body {
+    margin: 0px 0px;
+    margin-top: 30px;
+    font-family: Arial, '微軟正黑體', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+header {
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color:  #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*細節設計*/
+
+
+#banner{
+   float: left;
+}
+
+#banner h1 {
+   margin:0;
+}
+
+
+#banner img{
+   vertical-align: bottom;
+   width: 332px;
+}
+
+
+
+
+
+
+
+
+
+main{
+  background-color:  #009FCC;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+#teamname{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align:center;
+
+}
+
+.aboutus img{
+  width: 250px;
+  height: auto;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.aboutus{
+  float: left; 
+  margin: 20px;
+  margin-bottom: 20px;
+  background-size: 100px 30%;
+  display: block;
+  margin: 30px;
+
+}
+
+.aboutus .informa{
+  display: block; 
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  top:10px;
+}
+
+.informa a{
+  color: #000000;
+}
+
+
+
+.informa h2{
+  color: #000000;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.informa p{
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+#container{
+  margin: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  left:50;
+  top:50;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ### FOOTER ###*/
+
+footer{
+  background-color:  #4682B4;
+  margin-bottom: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 160px;
+
+}
+
+
+
+
+
+
+
+footer {
+    
+    padding: 5px;
+}
+
+
+
+#iconmenu {
+    float: left;
+}
+
+#iconmenu ul {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+#iconmenu img {
+    border: none;
+    width: 25px;
+}
+
+
+
+
+#submenu {
+    clear: both;
+    font-family: 'Maven Pro', Helvetica, Arial, san-serif;
+    font-size: 12px;
+    overflow: hidden;
+    float: left;
+
+}
+/*
+#submenu ul {
+    margin: 3px;
+    padding: 0;
+}
+
+#submenu li {
+    list-style-type: none;
+    float: left;
+}
+
+#submenu li a {
+    display: block;
+    width: auto;
+    border-right: solid 1px #ffffff;
+    text-align: center;
+    text-decoration: none;
+    color: #99FF99;
+    font-weight: bold;
+    padding-right: 6px;
+    margin-right: 3px;
+}
+
+#submenu li:last-child a {
+    border: none;
+}
+
+#submenu li+li+li a {
+    border: none;
+}
+*/
+
+#submenu{
+    font-size: 12px;
+    display: block;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+#submenu a{
+  color: #FFC0CB;
+}
+
+
+
+
+.rely_1 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color:   #7AB8CC ;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'cwTeXYen', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color:   #7AB8CC ;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    float: right;
+    right: 0;
+    top: 150px;
+    z-index: 50;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
